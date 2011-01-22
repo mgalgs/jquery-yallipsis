@@ -2,12 +2,16 @@ What is Yallipsis?
 ==================
 Yallipsis is **Yet Another Ellipsis Plugin** for jQuery. It turns text like this:
 > Hi I love stuff and stuff and I really love to eat pizza and stuff yes.
+
 into this:
 > Hi I love stuff and...
+
 or this:
 > ...and stuff yes.
+
 or this:
 > Hi I lov...stuff yes.
+
 or this:
 > ...I really love...
 
