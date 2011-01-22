@@ -1,6 +1,6 @@
 What is Yallipsis?
 ==================
-Yallipsis is **Yet Another Ellipsis Plugin** for jQuery. It turns text like this:
+Yallipsis is **Yet Another Ellipsis Plugin** for jQuery. It is tiny and very simple to use. It turns text like this:
 > Hi I love stuff and stuff and I really love to eat pizza and stuff yes.
 
 into this:
