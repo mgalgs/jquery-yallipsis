@@ -18,7 +18,7 @@ or this:
 Usage
 =====
 First, include `jquery.yallipsis.js` in your html document:
-    <script type="text/javascript" src="/phpcode/quant/code/js/jquery.yallipsis.js"></script>
+    <script type="text/javascript" src="/js/jquery.yallipsis.js"></script>
 
 Basic Usage
 -----------
