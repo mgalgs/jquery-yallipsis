@@ -4,16 +4,16 @@ Yallipsis is **Yet Another Ellipsis Plugin** for jQuery. It turns text like this
 > Hi I love stuff and stuff and I really love to eat pizza and stuff yes.
 
 into this:
-> Hi I love stuff and...
+> Hi I love stuff and<b><u>...</u></b>
 
 or this:
-> ...and stuff yes.
+> <b><u>...</u></b>and stuff yes.
 
 or this:
-> Hi I lov...stuff yes.
+> Hi I lov<b><u>...</u></b>stuff yes.
 
 or this:
-> ...I really love...
+> <b><u>...</u></b>I really love<b><u>...</u></b>
 
 Usage
 =====
@@ -30,11 +30,11 @@ Options
 -------
 <dl>
   <dt>maxChars</dt>
-  <dd>The maximum number of characters to allow before we ellipsify. Default: `50`</dd>
+  <dd>The maximum number of characters to allow before we ellipsify. Default: <code>50</code></dd>
   <dt>replaceText</dt>
-  <dd>Text to insert to indicate ellipsification. Default: `'<b><u>...</u></b>'`</dd>
+  <dd>Text to insert to indicate ellipsification. Default: <code>'<b><u>...</u></b>'</code></dd>
   <dt>where</dt>
-  <dd>Where to truncate. Possible values: `'front'`, `'back'`, `'sides'`, `'middle'`. Default: `'back'`</dd>
+  <dd>Where to truncate. Possible values: <code>'front'</code>, <code>'back'</code>, <code>'sides'</code>, <code>'middle'</code>. Default: <code>'back'</code></dd>
 </dl>
 
 ##### Examples #####
@@ -48,6 +48,7 @@ Then this:
     $(function() {
         $(".short").yallipsis({maxChars:7, replaceText:'<u>***</u>'});
     });
+
 would result in this:
     <div id="long-stuff" title="This is my really long sentence.">
       This is<u>***</u>
@@ -57,9 +58,10 @@ and this:
     $(function() {
         $(".short").yallipsis({maxChars:10, where: 'sides'});
     });
+
 would result in this:
     <div id="long-stuff" title="This is my really long sentence.">
-      ...really long...
+      <b><u>...</u></b>really long<b><u>...</u></b>
     </div>
 
 
